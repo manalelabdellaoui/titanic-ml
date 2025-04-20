@@ -1,0 +1,21 @@
+# Python related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Spyder specific files
+.spyderproject
+.spyderworkspace
+
+# Log and cache files
+*.log
+*.csv
+*.tsv
+*.db
+.DS_Store
