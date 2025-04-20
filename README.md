@@ -1,1 +1,3 @@
-# titanic-ml
+# Using Boosting and Cross-Validation to Predict Passengers' Survival of the Titanic Crash
+
+This is a continuation of the previous [Titanic project](https://github.com/manalelabdellaoui/titanic-eda). The cleaned dataset resulting from that project is used to train a boosting model to predict passengers' survival of the crash. Categorical features are transformed into a binary format (One Hot Encoding). The missing values for `Age` are imputed with the mean of known ages in the cross-validation fold. Cross-validation is performed to tune the learning rate and the maximum depth of the trees of the boosting models. The model was then used to predict whether a passenger survived the crash. The results were submitted on Kaggle which returned a score of 75.6%. We could try to increase the score by doing some extra feature engineering, but for now we will conclude this project.
